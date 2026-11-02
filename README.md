@@ -1,4 +1,22 @@
 # Kanban
+
 A kanban project using Spring Controllers (API)
 
-![image](https://user-images.githubusercontent.com/65620947/134815221-f6c65b5b-145f-4af1-91ec-d22d01ca6e9e.png)
+**Stack** : Java 11, Maven, Spring Boot 2.5.5, MySQL
+
+## Démarrage
+
+### `kanbanJo/`
+
+```bash
+cd kanbanJo
+./mvnw clean install   # construire et tester
+./mvnw spring-boot:run   # démarrer l'application
+./mvnw test   # lancer les tests
+```
+
+## Structure
+
+```
+kanbanJo/
+```
